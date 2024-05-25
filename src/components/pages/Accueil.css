@@ -1,0 +1,18 @@
+.buttonValid {
+    background-color: green;
+    color: white;
+    width: 180px;
+    height: 120px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: 60%;
+}
+
+.livre {
+    width: 300px;
+}
+
+.carrousel {
+    width: 100px;
+}

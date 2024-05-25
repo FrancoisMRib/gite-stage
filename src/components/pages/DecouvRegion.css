@@ -1,0 +1,23 @@
+.panel {
+    display: flex;
+    flex: grid;
+}
+
+.background {
+    background-color: brown;
+    color: white;
+}
+
+/* .essai {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+.window{
+    width: 300px;
+    height: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-size: cover; 
+}

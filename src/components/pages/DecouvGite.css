@@ -1,0 +1,31 @@
+.title {
+    text-align: center;
+    background-color: #C54839;
+    color: azure;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.general {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.corpus {
+    background-color: #C54839;
+    color: azure;
+    text-align: center;
+}
+
+.list {
+    text-align: left;
+}
+
+.button {
+    width: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* .essai {
+    background-color: aqua;
+} */
