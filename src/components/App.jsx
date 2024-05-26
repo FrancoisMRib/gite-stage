@@ -14,9 +14,10 @@ export function App() {
     <>
       <div>
         <Header/>
-        < Accueil />
+        {/* < Accueil /> */}
         {/* <DecReg/> */}
-        {/* <DecouvGite/> */}
+        <DecouvGite/>
+        {/* <LivreDor/> */}
         < Footer />
         {/* <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

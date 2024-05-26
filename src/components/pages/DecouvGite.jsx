@@ -1,9 +1,16 @@
 import './DecouvGite.css';
+import { Slider2 } from './Slider2';
 
 export function DecouvGite () {
     return (
         <div className='general'>
             <h2 className='title'>Le gîte que nous vous proposons</h2>
+            <div className='accueil' style={{
+            display:'flex',
+            flex:'row'
+        }}>
+                <Slider2 />
+             
             <div className='corpus'>
             <p>    Au sein du paysage bucolique de Firmi, en bordure du bourg, <br></br>vous serez accueillis dans une maison indépendante de deux étages, <br></br>voisine de la résidence secondaire de la propriétaire.</p>
         <p>    Depuis le parking, un jardin paysager en terrasse traversé par <br></br>36 marches vous donnera accès au gîte.</p>
@@ -13,7 +20,8 @@ export function DecouvGite () {
         Equipement général : 
         </h3>
         <p>Fourni :</p>
-        <p className='list'>
+        {/* <p className='list'> */}
+            <p>
 
 Chauffage central au gaz<br></br>
 Electricité<br></br>
@@ -27,7 +35,10 @@ Accès internet<br></br>
 
         </p>
             <button className='button'>Découvrir les avis de nos anciens vacanciers</button>
+            <br>
+            </br>
             <button className='button'>Découvrez comment rejoindre le gîte</button>
+            </div>
             </div>
         </div>
         
