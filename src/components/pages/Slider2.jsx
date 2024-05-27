@@ -9,36 +9,75 @@ export function Slider2() {
     const images = [
         {
             id:1,
-            image:'src/components/img/ext1.jpg',
-            text:"La vue sur le gîte depuis les terrasses où vous pourrez garer vos voitures"
+            image:'src/components/img/int1.jpg',
+            text:"Le chemin du haut"
         },
         {
             id:2,
-            image:'src/components/img/ext2.jpg',
-            text:"Les vignes auxquelles le gîte doit son nom"
+            image:'src/components/img/int2.jpg',
+            text:"Le chemin que vous empruntez"        
         },
         {
             id:3,
-            image:'src/components/img/ext3.jpg',
-            text:"Un belle fleur que vous apercevrez sur nos terrases paysagères !"
+            image:'src/components/img/int3.jpg',
+            text:"Le parking, qui peut accueillir deux voitures"
         },
         {
             id:4,
-            image:'src/components/img/ext4.jpg',
-            text:"Les terrasses paysagères qui décorent les 36 marches qui vous mèneront au gîte"
+            image:'src/components/img/int4.jpg',
+            text:"La vue sur le gîte"
         },
         {
             id:5,
-            image:'src/components/img/ext5.jpg',
-            text:"Le chemin que vous aurez à emprunter pour accéder aux terrasses"
+            image:'src/components/img/int5.jpg',
+            text:"Les belles fleurs de nos terrasses paysagères"
         },
+        {
+            id:6,
+            image:'src/components/img/int6.jpg',
+            text:"Le salon"
+        },
+        {
+            id:7,
+            image:'src/components/img/int7.jpg',
+            text:"La terrasse arrière"
+        },
+        {
+            id:8,
+            image:'src/components/img/int8.jpg',
+            text:"La première salle de bains"
+        },
+        {
+            id:9,
+            image:'src/components/img/int9.jpg',
+            text:"La deuxième salle de bains"
+        },
+        {
+            id:10,
+            image:'src/components/img/int10.jpg',
+            text:"La deuxième chambre"
+        },
+        {
+            id:11,
+            image:'src/components/img/int11.jpg',
+            text:"Le gîte, vue du chemin de la Peyre"
+        },
+        {
+            id:12,
+            image:'src/components/img/int12.jpg',
+            text:"La deuxième terrasse"
+        }
     ];
 
     return (
-        <Carousel className="defil">
+        <Carousel className="defil"
+            // autoPlay
+            infiniteLoop
+
+        >
             {images.map(slide => (
-          <div key={slide.id} className="frame">
-            <img src={slide.image} alt="" />
+          <div key={slide.id} className="">
+            <img src={slide.image} alt="" className="frame"/>
             <div className="overlay">
                 <p className="overlay_text">{slide.text}</p>
             </div>

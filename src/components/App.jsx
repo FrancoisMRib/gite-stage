@@ -4,7 +4,9 @@ import { Footer } from './Footer';
 import { LivreDor } from './pages/LivreDor';
 import {Accueil} from './pages/Accueil';
 import { DecReg } from './pages/DecouvRegion';
+import { Reservation } from './pages/Reservation';
 import { DecouvGite } from './pages/DecouvGite';
+import { Contact } from './pages/Contact';
 // import './App.css'
 
 export function App() {
@@ -16,8 +18,10 @@ export function App() {
         <Header/>
         {/* < Accueil /> */}
         {/* <DecReg/> */}
-        <DecouvGite/>
-        {/* <LivreDor/> */}
+        {/* <Contact /> */}
+        {/* <Reservation /> */}
+        {/* <DecouvGite/> */}
+        <LivreDor/>
         < Footer />
         {/* <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

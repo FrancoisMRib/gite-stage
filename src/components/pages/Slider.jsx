@@ -35,7 +35,10 @@ export function Slider() {
     ];
 
     return (
-        <Carousel className="defil">
+        <Carousel className="defil"
+            // autoPlay
+            infiniteLoop
+        >
             {images.map(slide => (
           <div key={slide.id} className="frame">
             <img src={slide.image} alt="" />

@@ -4,21 +4,30 @@ import thermes from '../img/Cransac2.jpg';
 export function DecReg() {
     return (
         <div>
-            <div 
-            // className='essai'
-            >
-                <h1>Découvrez la région aux alentours !</h1>
+            <div className='underline'>
+            <h2 className='title'>Découvrez la région aux alentours !</h2>
+
                 <h4>
-                    Quelles sont les attractions qui vont feront envie ?
+                    Qu'aimeriez-vous voir dans la région ?
                 </h4>
+                <div className='background'>
+                    <p>Cliquez sur une image pour en savoir plus</p>
+                </div>
             </div>
-            <div className='background'>
-                <p>Cliquez sur une image pour en savoir plus</p>
-            </div>
+            <br/>
             <div className='panel'>
                 <img src="src/components/img/bournazel.jpg" alt="Le château de Bournazel" className='window'/>
                 <img src={thermes} alt="Les thermes de Cransac" className='window'/>
+                <img src="src/components/img/Rodez.jpg" alt="La ville de Rodez" className='window'/>
+                <img src="src/components/img/Belcastel.png" alt="Le village de Belcastel" className='window'/>
             </div>
+            <div className='panel'>
+                <a href="www.google.com"><img src="src/components/img/Flagnac.jpg" alt="Le festival de Flagnac" className='window'/></a>
+                <a href="www.google.com"><img src="src/components/img/Decazeville.jpg" alt="Le pays Decazevillois" className='window'/></a>
+                <a href="www.google.com"><img src="src/components/img/Conques-medium.png" alt="Conques-en-Rouergue" className='window'/></a>
+                <a href="www.google.com"><img src="src/components/img/Rocamadour.jpg" alt="La ville de Rocamadour" className='window'/></a>
+            </div>
+            <br/>
         </div>
     )
 }
