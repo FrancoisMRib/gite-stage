@@ -24,7 +24,7 @@ export function DecReg() {
             <div className='panel'>
                 <a href="www.google.com"><img src="src/components/img/Flagnac.jpg" alt="Le festival de Flagnac" className='window'/></a>
                 <a href="www.google.com"><img src="src/components/img/Decazeville.jpg" alt="Le pays Decazevillois" className='window'/></a>
-                <a href="www.google.com"><img src="src/components/img/Conques-medium.png" alt="Conques-en-Rouergue" className='window'/></a>
+                <a href="www.google.com"><img src="src/components/img/Conques-nuit.jpg" alt="Conques-en-Rouergue" className='window'/></a>
                 <a href="www.google.com"><img src="src/components/img/Rocamadour.jpg" alt="La ville de Rocamadour" className='window'/></a>
             </div>
             <br/>

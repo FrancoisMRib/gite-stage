@@ -5,13 +5,15 @@ export function Contact () {
     return (
         <div>
             <div className='title'>
-                <h2>Nous contacter</h2>
-                <h4>Contactez-nous de préférence par mail</h4>
+                <h2 className='h4'>Nous contacter</h2>
+                <h4 className='h4'>Contactez-nous de préférence par mail</h4>
             </div>
             <div className='agencement'>
                 <div className='carton'>
-                    <p>Contactez-nous par mail afin de pouvoir réserver au plus vite, en ayant au préalable tenu compte du calendrier et des chambres disponibles. 
-                        Les locations peuvent aller de trois jours à plusieurs semaines, et mobiliser plusieurs chambres. Ecrivez-nous et nous en parlerons !</p>
+                    <p>Contactez-nous par mail afin de pouvoir réserver au plus vite, en ayant au préalable 
+                        tenu compte du calendrier et des disponibilités. 
+                        Les locations peuvent aller de trois jours à plusieurs semaines. 
+                        Ecrivez-nous et nous en parlerons !</p>
                     <p>Myriam Zidel-Cauffet</p>
                     {/* <div>
                         <p>     Contactez-nous par mail afin de pouvoir réserver au plus vite, en</p>
@@ -20,17 +22,23 @@ export function Contact () {
                         <p>mobiliser plusieurs chambres. Ecrivez-nous et nous en parlerons ! </p>
                         <p>Myriam Zidel-Cauffet</p>
                     </div> */}
-                    <img src="src/components/img/Carte-Aveyron.png" alt="" className='map'/>
+                    <img src="src/components/img/ext3.jpg" alt="" className='map'/>
                 </div>
                 <div className='title2'>
-                    <br />
-                    <p className='inter'>Mail</p>
-                    <p className=''>myriam.zidel@yahoo.fr</p>
-                    <p className='inter'>Adresse</p>
-                    <p className=''>Chemin de la Peyre - 12300 Firmi</p>
-                    <br />
-                    <p className='inter'>Cliquez sur la carte pour voir quels sont les principaux axes routiers
-                    à proximité du gîte et de Firmi</p>
+                    {/* <div className='place'></div> */}
+                    <div className='heady'></div>
+                    <div className='middleonpos'>
+                        <p className=''>Mail</p>
+                        <p className='inter'>myriam.zidel@yahoo.fr</p>
+                        <p className=''>Adresse</p>
+                        <p className='inter'>Chemin de la Peyre - 12300 Firmi</p>
+                        <p>Téléphone</p>
+                        <p className='inter'>06-07-90-75-58</p>
+                    </div>
+                    <div className='heady'></div>
+                    {/* <br /> */}
+                    {/* <p className='inter'>Cliquez sur la carte pour voir quels sont les principaux axes routiers
+                    à proximité du gîte et de Firmi</p> */}
                 </div>
             </div>
 

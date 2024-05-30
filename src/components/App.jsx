@@ -7,6 +7,7 @@ import { DecReg } from './pages/DecouvRegion';
 import { Reservation } from './pages/Reservation';
 import { DecouvGite } from './pages/DecouvGite';
 import { Contact } from './pages/Contact';
+import { Localisation } from './pages/Localisation';
 // import './App.css'
 
 export function App() {
@@ -17,11 +18,12 @@ export function App() {
       <div>
         <Header/>
         {/* < Accueil /> */}
+        {/* <DecouvGite /> */}
         {/* <DecReg/> */}
         {/* <Contact /> */}
         {/* <Reservation /> */}
-        {/* <DecouvGite/> */}
-        <LivreDor/>
+        <Localisation />
+        {/* <LivreDor/> */}
         < Footer />
         {/* <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

@@ -28,9 +28,9 @@ export function Accueil() {
                 <p>espérons que vous passerez un séjour des plus</p>
                 <p>agréables et que vous vous sentirez comme chez vous !</p> */}
 
-                <p>Nous sommes heureux de vous accueillir au sein de<br/>
-                notre établissement confortable et authentique. <br/>
-                Nous espérons que vous passerez un séjour des plus<br/>
+                <p>Nous sommes heureux de vous accueillir au sein de
+                notre établissement confortable et authentique.
+                Nous espérons que vous passerez un séjour des plus
                 agréables et que vous vous sentirez comme chez vous !</p>
             </div>
             <button className="buttonValid">Organiser une réservation</button>

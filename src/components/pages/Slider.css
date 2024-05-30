@@ -4,10 +4,9 @@
     margin: 0;
 }
 
-/* .frame {
-    width: 400px;
-    height: 200px;
-} */
+.frame {
+    margin-left: 0px;
+}
 
 .overlay {
     width: 100%;
@@ -23,7 +22,5 @@
 
 .defil{
     width: 70%;
-    /* padding-top: 10px;
-    padding-left: 10px; */
-    /* padding-right: 10px; */
+    margin-left: 0px;
 }

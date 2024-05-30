@@ -12,10 +12,14 @@ export function DecouvGite () {
                 <Slider2 />
              
             <div className='corpus'>
-                <div className='carton'>
-                <p>Au sein du paysage bucolique de Firmi, en bordure du bourg, <br></br>vous serez accueillis dans une maison indépendante de deux étages, <br></br>voisine de la résidence secondaire de la propriétaire.</p>
-                <p>Depuis le parking, un jardin paysager en terrasse traversé par <br></br>36 marches vous donnera accès au gîte.</p>
-                <p>A la belle saison, vous aurez le plaisir de profiter des deux <br></br>terrasses ouvertes (16m² et 32m²) et d’un mobilier de jardin <br></br>parfaitement équipé.</p>
+                <div className='presentation'>
+                <p>A Firmi, en bordure du bourg, nous vous accueillerons
+                dans une maison indépendante sur deux niveaux, 
+                proche de la résidence secondaire du propriétaire.</p>
+                <p>36 marchant longeant un jardin paysager vous mèneront
+                au gîte depuis le parking.</p>
+                <p>A la belle saison, vous aurez le plaisir de profiter des deux 
+                terrasses ouvertes (16m² et 32m²) et d’un mobilier de jardin.</p>
 
                 </div>
         <h3>

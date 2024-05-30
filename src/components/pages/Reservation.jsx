@@ -16,7 +16,7 @@ export function Reservation() {
             </div>
            </div>
            <div>
-            <button>Voir les avis de nos anciens cliens</button>
+            <button>Voir les avis de nos anciens clients</button>
             <button>Agrandir la carte</button>
            </div>
         </div>

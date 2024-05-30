@@ -18,6 +18,10 @@
     text-align: center;
     color: #f5f5f5;
     background-color: #C54839;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
 .text-rajout {
@@ -32,14 +36,18 @@
 
 .accueil{
     background-color: #C54839;
+    width: 100%;
 }
 
 .carton{
+    align-items: center;    
     background-color: #f5f5f5;
-    padding-right: 8px;
-    padding-left: 8px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    font-family: "Indenture English Penman";
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-right: 8px;
     margin-bottom: 12px;
+    border-radius: 60%;
 }

@@ -25,7 +25,7 @@ export function Slider() {
         {
             id:4,
             image:'src/components/img/ext4.jpg',
-            text:"Les terrasses paysagères qui décorent les 36 marches qui vous mèneront au gîte"
+            text:"Les terrasses paysagères agrémentant les 36 marches vous conduiront au gîte"
         },
         {
             id:5,
@@ -42,9 +42,9 @@ export function Slider() {
             {images.map(slide => (
           <div key={slide.id} className="frame">
             <img src={slide.image} alt="" />
-            <div className="overlay">
+            {/* <div className="overlay">
                 <p className="overlay_text">{slide.text}</p>
-            </div>
+            </div> */}
           </div>
         ))}
         </Carousel>
